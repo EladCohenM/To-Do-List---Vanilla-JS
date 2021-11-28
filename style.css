@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Assistant';
+    font-weight: 400;
+    color: #2F2366;
+    text-align: center;
+    font-size: 25px;
+}
+
+.fc {
+    text-transform: uppercase;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #b1b1b1;
+}
+
+body>* {
+    background-color: #eeeeee;
+}
+
+.w {
+    width: 40vw;
+}
+
+/* define container */
+.container {
+    border: 1px solid #5B45B9;
+    border-radius: 6px;
+}
+
+/* define header */
+header {
+    background-color: #5B45B9;
+    border-color: #5B45B9;
+}
+
+header h1 {
+    color: #eeeeee;
+    font-weight: 600;
+
+    padding: 15px 0;
+
+    font-size: 1.5rem;
+}
+
+/* define items */
+.items {
+    height: fit-content;
+}
+.todo-item-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom: 2px solid #E8E7E7;
+
+    padding: 5px;
+}
+
+p {
+    padding: 0px 40px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.btn {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 4px;
+}
+
+.btns {
+    margin-right: 5px;
+}
+
+button {
+    font-size: 0.5rem;
+    font-weight: 700;
+    color: black;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 80%;
+}
+
+.edit {
+    background-color: #ff851b;
+}
+
+.edit:active {
+    background-color: #c06617;
+}
+
+.remove {
+    background-color: #ef5350;
+}
+
+.remove:active {
+    background-color: #bd413f;
+}
+
+/* define footer */
+
+footer {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-top: 1px solid #5B45B9;
+}
+
+.footer-container {
+    width: 50%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    border: none;
+    border-radius: 4px;
+    background-color: #5B45B9;
+
+    font-size: 0.6rem;
+    color: white;
+    text-align: left;
+
+    padding: 10px;
+
+    width: 70%;
+}
+
+input::placeholder {
+    color: #c7bcf8;
+}
+
+#footer-btn {
+    border: none;
+    border-radius: 4px;
+    background-color: #c7bcf8;
+    padding: 5px;
+}
+
+#footer-btn:active {
+    background-color: #928ea3;
+}
+
+/* JS items */
+
+.none {
+    display: none;
+}
+
+.edit-container {
+    height: 30px;
+    width: 50%;
+
+    margin: 0px 40px;
+
+    display: flex;
+    justify-content: space-between;
+}

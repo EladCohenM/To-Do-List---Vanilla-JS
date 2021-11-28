@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>To Do List</title>
+	<link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+	<div class="container">
+		<header class="w">
+			<h1 class="fc">to-do list</h1>
+		</header>
+		<div class="items">
+			<div class="todo-item-container w">
+				<p class="todo-text">milk</p>
+				<div class="btns">
+					<button type="button" class="btn edit fc">edit</button>
+					<button type="button" class="btn remove fc">X</button>
+				</div>
+			</div>
+			<div class="todo-item-container w">
+				<p class="todo-text">honey</p>
+				<div class="btns">
+					<button type="button" class="btn edit fc">edit</button>
+					<button type="button" class="btn remove fc">X</button>
+				</div>
+			</div>
+			<div class="todo-item-container w">
+				<p class="todo-text">beer</p>
+				<div class="btns">
+					<button type="button" class="btn edit fc">edit</button>
+					<button type="button" class="btn remove fc">X</button>
+				</div>
+			</div>
+		</div>
+		<footer class="w">
+			<div class="footer-container">
+				<input type="text" placeholder="Add item" id="add-input" />
+				<button type="button" class="fc" id="footer-btn">add item</button>
+			</div>
+		</footer>
+	</div>
+	<div class="none">
+		<div class="edit-container">
+			<input type="text" placeholder="Edit item" class="edit-input" />
+			<button type="button" class="fc" class="edit-btn">add item</button>
+		</div>
+	</div>
+	<div class="todo-item-example none">
+		<div class="todo-item-container w">
+			<p class="todo-text"></p>
+			<div class="btns">
+				<button type="button" class="btn edit fc">edit</button>
+				<button type="button" class="btn remove fc">X</button>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>
